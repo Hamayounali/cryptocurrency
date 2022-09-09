@@ -250,6 +250,10 @@
   padding: 20px;
 }
 
+.coin-desc-link a {
+  color: var(--pink);
+}
+
 .menu a:hover {
   color: orange !important;
 }
@@ -265,7 +269,7 @@
 
 .main {
   flex: 0.8;
-  width: 100%; 
+  width: 100%;
 }
 
 .routes {
@@ -278,10 +282,6 @@
   padding: 20px;
   align-items: center;
   width: 100%;
-}
-
-.logo a {
-  color: white;
 }
 
 .menu-control-container {
@@ -342,13 +342,13 @@
   .main {
     flex: 1;
     margin-top: 90px;
-    margin-left: 0px;
+    margin-left: 1px;
     margin-right: 10px;
   }
 
   .nav-container {
     height: 8vh;
-    position:fixed;
+    position: fixed;
     width: 100%;
     z-index: 100;
     background-color: var(--bgSecondary);
@@ -360,11 +360,13 @@
 
   .ant-menu {
     position: absolute;
-    right: 0px;
+    right: 1px;
   }
+
   .home-title {
     font-size: 1.4rem !important;
   }
+
   .show-more {
     font-size: 1.3rem !important;
   }
@@ -436,10 +438,6 @@
   font-size: 1rem;
 }
 
-.stats {
-  font-weight: 800;
-}
-
 .coin-value-statistics-heading p {
   font-size: 1rem;
   opacity: 0.9;
@@ -462,10 +460,6 @@
   opacity: 0.9;
 }
 
-.coin-desc-link a {
-  color: var(--pink);
-}
-
 .coin-desc-link h3 {
   font-weight: 700;
 }
@@ -475,7 +469,7 @@
 }
 
 .coin-links {
-padding: 0px 20px;
+  padding: 1px 20px;
   flex: 0.5;
 }
 
@@ -489,12 +483,6 @@ padding: 0px 20px;
 
 .link-name {
   text-transform: capitalize;
-  font-size: 1rem;
-}
-
-.coin-link a {
-  color: var(--pink);
-  font-weight: 700;
   font-size: 1rem;
 }
 
