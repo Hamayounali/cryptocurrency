@@ -14,7 +14,8 @@
 
 ## Live Demo
 
-Under development 
+Live Demo: [@Demo](https://hamayounali.github.io/cryptocurrency/)
+
 
 ## Getting Started
 
