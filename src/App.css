@@ -486,7 +486,8 @@
   font-size: 1rem;
 }
 
-.coin-link:hover, .coin-stats:hover {
+.coin-link:hover,
+.coin-stats:hover {
   background-color: rgb(138, 137, 135);
 }
 
@@ -500,7 +501,7 @@
   }
 
   .stats-container h2 {
-    margin-top: 0px;
+    margin-top: 1px;
   }
 }
 
@@ -508,7 +509,7 @@
   .coin-links {
     padding: 1px;
   }
-  
+ 
   .coin-detail-container {
     margin: 1px;
   }
@@ -534,7 +535,7 @@
 }
 
 .news-title {
-width: 70%;
+  width: 70%;
 }
 
 .news-image-container .img {
@@ -544,7 +545,7 @@ width: 70%;
 
 .news-card p {
   color: black;
-  margin: 10px 0px !important;
+  margin: 10px 1px !important;
 }
 
 .provider-container {
@@ -579,7 +580,7 @@ width: 70%;
 }
 
 .current-price {
-  margin-top: 0px !important;
+  margin-top: 1px !important;
   font-weight: 900 !important;
 }
 
