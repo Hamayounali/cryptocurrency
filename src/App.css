@@ -1,11 +1,11 @@
-:root{
-  --text-primary:#000;
-  --bgPrimary:#fff;
+:root {
+  --text-primary: #000;
+  --bgPrimary: #fff;
   --bgSecondary: #f9f9f9;
   --pink: #4369b2;
-  --darkPink: #4063A5;
+  --darkPink: #4063a5;
   --light-blue: #e6f7ff;
-  --border: #D9D9D9;
+  --border: #d9d9d9;
 }
 
 .menu {
@@ -265,21 +265,11 @@
 
 .main {
   flex: 0.8;
-  width: 100%;
-  
+  width: 100%; 
 }
 
 .routes {
   padding: 20px;
-}
-
-.nav-container {
-  position: fixed;
-  left: 0;
-  margin: 10px;
-  height: 100vh;
-  margin: 0px;
-  background-color: rgb(0, 21, 41);
 }
 
 .logo-container {
@@ -291,7 +281,7 @@
 }
 
 .logo a {
- color: white;
+  color: white;
 }
 
 .menu-control-container {
@@ -346,37 +336,37 @@
   }
 
   .navbar {
-      flex: 1;
+    flex: 1;
   }
 
   .main {
-      flex: 1;
-      margin-top: 90px;
-      margin-left: 0px;
-      margin-right: 10px;
+    flex: 1;
+    margin-top: 90px;
+    margin-left: 0px;
+    margin-right: 10px;
   }
 
   .nav-container {
-      height: 8vh;
-      position:fixed;
-      width: 100%;
-      z-index: 100;
-      background-color: var(--bgSecondary);
+    height: 8vh;
+    position:fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: var(--bgSecondary);
   }
 
   .menu-control-container {
-      display: block !important;
+    display: block !important;
   }
 
   .ant-menu {
-      position: absolute;
-      right: 0px;
+    position: absolute;
+    right: 0px;
   }
   .home-title {
-      font-size: 1.4rem !important;
+    font-size: 1.4rem !important;
   }
   .show-more {
-      font-size: 1.3rem !important;
+    font-size: 1.3rem !important;
   }
 }
 
@@ -438,7 +428,6 @@
   font-size: 1rem;
   opacity: 0.9;
   padding: 20px;
-
 }
 
 .coin-stats-name {
@@ -529,16 +518,16 @@ padding: 0px 20px;
 
 @media screen and (max-width: 500px) {
   .coin-links {
-    padding: 0px;
+    padding: 1px;
   }
   
   .coin-detail-container {
-    margin: 0;
+    margin: 1px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .heading{
+  .heading {
     margin-top: 20px;
   }
 }
@@ -561,8 +550,8 @@ width: 70%;
 }
 
 .news-image-container .img {
-  width:100px;
-  height:100px;
+  width: 100px;
+  height: 100px;
 }
 
 .news-card p {
@@ -614,11 +603,11 @@ width: 70%;
 }
 
 .show-more {
-  margin-top: 0px !important;
+  margin-top: 1px !important;
 }
 
 .exchange-image {
-  margin: 0px 10px !important;
+  margin: 1px 10px !important;
 }
 
 .search-crypto {
