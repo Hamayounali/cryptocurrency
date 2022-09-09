@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Bookstore
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="852" alt="Capture" src="https://user-images.githubusercontent.com/22744775/186435992-8f1d2589-1069-4eae-9d70-f9f82c57b9a8.PNG">
 
-## Available Scripts
+## Description
+> Cryptocurrencies Application is to provide detailed and realistic information about cryptocurrencies. It is developed by using React, Redux, JavaScript, CSS, and Bootstrap. 
 
-In the project directory, you can run:
+## Built With
+- React Js
+- Redux 
+- JavaScript 
+- HTML
+- CSS - BootStrap
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Under development 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To get the content of this project locally you need to run this command in your terminal
+Before, make sure you have [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/) and [Node.js](https://nodejs.dev/learn/how-to-install-nodejs) installed in your computer.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. `git clone https://github.com/Hamayounali/cryptocurrency.git`
+2. `cd cryptocurrency`
+3. `npm install` 
+  This will download all the dependancies of the project.
+4. `npm start` 
+  The page will open at http://localhost:3000 in your browser.
 
-### `npm run build`
+### Builds the app for production
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm run build`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+It correctly bundles React in production mode and optimizes the build for the best performance. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Test
 
-### `npm run eject`
+For tracking linter errors locally you need to follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- After cloning the project make sure you have run this command
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  > `npm install` command
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- For tracking the linter errors in HTML file run:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  > `npx hint .`
 
-## Learn More
+- For tracking the linter errors in CSS file run:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  > `npx stylelint "\*_/_.{css,scss}"`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- And For tracking the linter errors in JavaScript file run:
 
-### Code Splitting
+  > `npx eslint .`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👤 **Hamayoun Ali**
 
-### Making a Progressive Web App
+- GitHub: [@Hamayounali](https://github.com/Hamayounali)
+- Twitter: [@hamayounAli6](https://twitter.com/hamayounAli6)
+- LinkedIn: [Humayoon Ali](https://www.linkedin.com/in/humayoon-ali-663ba2239)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Design 
 
-### Advanced Configuration
+Original design idea by Nelson Sakwa on Behance.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Show your support
 
-### Deployment
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Contributing
 
-### `npm run build` fails to minify
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to check the issues page.
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
