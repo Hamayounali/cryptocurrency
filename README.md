@@ -1,6 +1,6 @@
-# Bookstore
+# Cryptocurrency 
 
-<img width="852" alt="Capture" src="https://user-images.githubusercontent.com/22744775/186435992-8f1d2589-1069-4eae-9d70-f9f82c57b9a8.PNG">
+<img width="946" alt="crypto" src="https://user-images.githubusercontent.com/22744775/189409643-7fb48070-fb01-417d-b8bb-ef9a7bd33d4c.PNG">
 
 ## Description
 > Cryptocurrencies Application is to provide detailed and realistic information about cryptocurrencies. It is developed by using React, Redux, JavaScript, CSS, and Bootstrap. 
