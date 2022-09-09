@@ -14,7 +14,8 @@
 
 ## Live Demo
 
-Under development 
+[Cryptocurrency](https://hamayounali.github.io/cryptocurrency/)
+
 
 ## Getting Started
 
