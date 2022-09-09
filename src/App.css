@@ -491,7 +491,7 @@
   background-color: rgb(138, 137, 135);
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
   .stats-container {
     flex-direction: column;
   }
@@ -509,7 +509,7 @@
   .coin-links {
     padding: 1px;
   }
- 
+
   .coin-detail-container {
     margin: 1px;
   }
