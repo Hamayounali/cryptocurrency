@@ -16,6 +16,10 @@
 
 [Cryptocurrency](https://hamayounali.github.io/cryptocurrency/)
 
+## Video Instructions
+
+[Video](https://www.youtube.com/watch?v=SXp6YBYRewY)
+
 
 ## Getting Started
 
