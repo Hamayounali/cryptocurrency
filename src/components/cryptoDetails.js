@@ -1,7 +1,9 @@
 import React from 'react';
 import HTMLReactParser from 'html-react-parser';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import millify from 'millify';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import {
   Col, Row, Typography,
 } from 'antd';
@@ -39,6 +41,9 @@ function CryptoDetails() {
 
   return (
     <div className="row test5">
+      <Link className="back-home" to="/">
+        <FontAwesomeIcon icon={faChevronLeft} />
+      </Link>
       <Col className="coin-heading-container">
         <Title level={2} className="coin-name">
           {data?.data?.coin.name}

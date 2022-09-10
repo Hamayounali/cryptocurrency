@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import millify from 'millify';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowAltCircleRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { useGetCryptosQuery } from '../services/cryptoApi';
 
 function Cryptocurrencies({ simplified }) {
@@ -25,6 +25,9 @@ function Cryptocurrencies({ simplified }) {
     <>
       {!simplified && (
         <div className="row searchRow">
+          <Link className="back-home" to="/">
+            <FontAwesomeIcon icon={faChevronLeft} />
+          </Link>
           <div className="container-fluid allCryptoHead">
             <h3> All Cryptocurrencies</h3>
           </div>

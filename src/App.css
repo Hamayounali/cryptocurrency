@@ -216,6 +216,13 @@
   text-align: right;
 }
 
+.back-home {
+  text-decoration: none;
+  color: white !important;
+  font-size: 20px;
+  text-align: left !important;
+}
+
 .App {
   text-align: center;
 }
