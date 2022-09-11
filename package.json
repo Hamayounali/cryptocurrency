@@ -1,5 +1,6 @@
 {
-  "homepage": "https://hamayounali.github.io/cryptocurrency"
+  "homepage": "https://hamayounali.github.io/cryptocurrency",
+  "name": "cryptocurrency"
   "version": "0.1.0",
   "private": true,
   "dependencies": {
