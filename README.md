@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Cryptocurrency](https://hamayounali.github.io/cryptocurrency/)
+[Cryptocurrency](https://cryptoali.netlify.app/)
 
 ## Video Instructions
 
